@@ -9,10 +9,10 @@ class Command(ABC):
 
 class Light:
     def on(self):
-        print("Light is ON.")
+        print("Light is ON")
 
     def off(self):
-        print("Light is OFF.")
+        print("Light is OFF")
 
 
 class LightOnCommand(Command):
