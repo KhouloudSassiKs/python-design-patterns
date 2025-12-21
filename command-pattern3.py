@@ -6,7 +6,6 @@ class Command(ABC):
     def execute(self):
         pass
 
-
 class TV:
     def on(self):
         print("Turning the TV ON")
