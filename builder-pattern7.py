@@ -17,7 +17,7 @@ class Robot:
         self.legs = legs
 
     def show_robot(self):
-        print(f"Robot with {self.head}, {self.body}, and {self.legs}.")
+        print(f"Robot with {self.head}, {self.body}, and {self.legs}")
 
 
 # Abstract Builder
