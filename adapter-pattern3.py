@@ -16,9 +16,7 @@ class USPlug(ABC):
 
 
 class Adapter(USPlug):
-    """
-    Adapter that allows a EuropeanPlug to be used where a USPlug is expected.
-    """
+    """ Adapter that allows a EuropeanPlug to be used where a USPlug is expected."""
 
     def __init__(self, euro_plug):
         self.euro_plug = euro_plug
