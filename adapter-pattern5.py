@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 # Vintage car class with legacy behavior
 class VintageCar:
     def drive(self):
-        print("Driving a vintage car.")
+        print("Driving a vintage car")
 
 
 # Modern car interface
