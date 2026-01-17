@@ -19,7 +19,7 @@ class USPlug(ABC):
 
 # Adapter
 class Adapter(USPlug):
-    def __init__(self, plug):
+    def __init__(self,plug):
         self.plug = plug
 
     def connect(self):
